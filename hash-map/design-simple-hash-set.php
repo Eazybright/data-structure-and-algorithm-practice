@@ -6,7 +6,7 @@ class MyHashSet
     protected array $sets = [];
   
     /**
-     * @param Integer $key
+     * @param int $key
      * @return NULL
      */
     function add($key) {
@@ -16,7 +16,7 @@ class MyHashSet
     }
   
     /**
-     * @param Integer $key
+     * @param int $key
      * @return NULL
      */
     function remove($key) {
@@ -28,8 +28,8 @@ class MyHashSet
     }
   
     /**
-     * @param Integer $key
-     * @return Boolean
+     * @param int $key
+     * @return bool
      */
     function contains($key) {
         foreach($this->sets as $index => $value){

@@ -5,8 +5,8 @@ class MyHashMap {
     protected array $maps = [];
   
     /**
-     * @param Integer $key
-     * @param Integer $value
+     * @param int $key
+     * @param int $value
      * @return NULL
      */
     function put($key, $value) {
@@ -14,15 +14,15 @@ class MyHashMap {
     }
   
     /**
-     * @param Integer $key
-     * @return Integer
+     * @param int $key
+     * @return int
      */
     function get($key) {
         return $this->maps[$key] ?? -1;
     }
   
     /**
-     * @param Integer $key
+     * @param int $key
      * @return NULL
      */
     function remove($key) {
